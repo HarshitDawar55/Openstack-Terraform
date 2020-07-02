@@ -3,32 +3,32 @@
 
 provider "openstack" {
   # Username to be used while connecting to Openstack.
-  user_name = "admin"
+  user_name = "<User Name>"
 
   # Tenant name to be used while connecting to Openstack.
-  tenant_name = "admin"
+  tenant_name = "<Tenant Name>"
 
   # Password to be used while connecting to Openstack.
-  password = "ebf4a129b765461f"
+  password = "<Password>"
 
   # URL where Openstack is running!
-  auth_url = "http://192.168.1.3:5000/v3"
+  auth_url = "<Auth URL>"
 
-  region = "RegionOne"
+  region = "<Region Name>"
 }
 
 resource "openstack_compute_instance_v2" "First_Instance" {
   # Name of the instance to create
-  name = "Openstack_Instance_through_Terraform"
+  name = "<Instance Name>"
 
   # Name of the image to use for the instance creation
-  image_name = "FedorLinux32"
+  image_name = "<Image Name>"
 
   # Name of the flavor to use for the flavor creation
-  flavor_name = "m1.enough"
+  flavor_name = "<Flavor Name>"
 
   network {
-    name = "private"
+    name = "<Network Name>"
   }
 
 }
