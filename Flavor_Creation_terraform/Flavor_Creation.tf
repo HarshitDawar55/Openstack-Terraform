@@ -1,29 +1,29 @@
 provider "openstack" {
   # Username to be used while connecting to Openstack.
-  user_name = "admin"
+  user_name = "<User Name>"
 
   # Tenant name to be used while connecting to Openstack.
-  tenant_name = "admin"
+  tenant_name = "<Tenant Name>"
 
   # Password to be used while connecting to Openstack.
-  password = "ebf4a129b765461f"
+  password = "<Password>"
 
   # URL where Openstack is running!
-  auth_url = "http://192.168.1.3:5000/v3"
+  auth_url = "<Auth URL>"
 
-  region = "RegionOne"
+  region = "<Region Name>"
 }
 
 resource "openstack_compute_flavor_v2" "Terraform_Test_Flavor" {
   # Disk space in GB
-  disk = 10
+  disk = "<Disk Size>"
 
   # Name of the flavor!
-  name = "terraform_Test"
+  name = "<Name of the Flavor>"
 
   # RAM in MB
-  ram = 1024
+  ram = "<RAM Size>"
 
   # Number of Virtual CPU has to be provided here
-  vcpus = 1
+  vcpus = "<Number of VCPU >"
 }
