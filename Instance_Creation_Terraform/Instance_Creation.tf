@@ -18,8 +18,13 @@ provider "openstack" {
 }
 
 resource "openstack_compute_instance_v2" "First_Instance" {
+  # Name of the instance to create
   name = "Openstack_Instance_through_Terraform"
+
+  # Name of the image to use for the instance creation
   image_name = "FedorLinux32"
+
+  # Name of the flavor to use for the flavor creation
   flavor_name = "m1.enough"
 
   network {
