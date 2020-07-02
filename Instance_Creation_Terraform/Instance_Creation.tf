@@ -9,7 +9,7 @@ provider "openstack" {
   tenant_name = "admin"
 
   # Password to be used while connecting to Openstack.
-  password = ""
+  password = "ebf4a129b765461f"
 
   # URL where Openstack is running!
   auth_url = "http://192.168.1.3:5000/v3"
