@@ -2,9 +2,17 @@
 # in the hypervisor-list column of nova hypervisor-list command should match!
 
 provider "openstack" {
+  # Username to be used while connecting to Openstack.
   user_name = "admin"
+
+  # Tenant name to be used while connecting to Openstack.
   tenant_name = "admin"
+
+  # Password to be used while connecting to Openstack.
   password = ""
+
+  # URL where Openstack is running!
   auth_url = "http://192.168.1.3:5000/v3"
+
   region = "RegionOne"
 }
