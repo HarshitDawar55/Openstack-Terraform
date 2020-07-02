@@ -23,5 +23,7 @@ resource "openstack_compute_flavor_v2" "Terraform_Test_Flavor" {
 
   # RAM in MB
   ram = 1024
+
+  # Number of Virtual CPU has to be provided here
   vcpus = 1
 }
