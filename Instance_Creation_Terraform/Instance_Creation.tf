@@ -22,6 +22,8 @@ resource "openstack_compute_instance_v2" "First_Instance" {
   image_name = "FedorLinux32"
   flavor_name = "m1.enough"
 
-  network {}
+  network {
+    name = "private"
+  }
 
 }
