@@ -18,5 +18,10 @@ provider "openstack" {
 }
 
 resource "openstack_compute_instance_v2" "First_Instance" {
-  name = ""
+  name = "Openstack_Instance_through_Terraform"
+  image_name = "FedorLinux32"
+  flavor_name = "m1.enough"
+
+  network {}
+
 }
