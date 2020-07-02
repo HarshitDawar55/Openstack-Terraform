@@ -17,7 +17,11 @@ provider "openstack" {
 resource "openstack_compute_flavor_v2" "Terraform_Test_Flavor" {
   # Disk space in GB
   disk = 10
+
+  # Name of the flavor!
   name = "terraform_Test"
+
+
   ram = 1024
   vcpus = 1
 }
