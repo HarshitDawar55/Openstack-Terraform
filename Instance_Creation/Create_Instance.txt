@@ -1,0 +1,5 @@
+# To create an instacne in Openstack using CLI!
+
+# Command to create the instacne!
+
+nova boot --image <image name or ID from which instance has to be created> --flavor <Flavor name or ID> --nic net-name=<Network name>  <Instance Name>
