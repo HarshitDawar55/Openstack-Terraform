@@ -16,3 +16,7 @@ provider "openstack" {
 
   region = "RegionOne"
 }
+
+resource "openstack_compute_instance_v2" "First_Instance" {
+  name = ""
+}
