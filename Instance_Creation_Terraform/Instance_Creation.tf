@@ -5,4 +5,6 @@ provider "openstack" {
   user_name = "admin"
   tenant_name = "admin"
   password = ""
+  auth_url = "http://192.168.1.3:5000/v3"
+  region = "RegionOne"
 }
