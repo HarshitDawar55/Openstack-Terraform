@@ -21,7 +21,7 @@ resource "openstack_compute_flavor_v2" "Terraform_Test_Flavor" {
   # Name of the flavor!
   name = "terraform_Test"
 
-
+  # RAM in MB
   ram = 1024
   vcpus = 1
 }
