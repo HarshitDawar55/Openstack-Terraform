@@ -1,0 +1,4 @@
+nova create-flavor <flavor name> <id of flavor> <Ram in MB> <HDD in GB> <number of vCPU>
+
+
+For example:    nova create-flavor HDflavor 123456789 1024 10 1
