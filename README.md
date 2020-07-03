@@ -4,7 +4,7 @@
 
 :sparkles::fireworks::tada: Important points about this Repository!!!!! :tada::fireworks::sparkles:
 
-- This Repository will contain each and every thing about Openstack through CLI commands & Terraform codes!
+* This Repository will contain each and everything about Openstack through CLI commands & Terraform codes!
 
 * There are multiple operations possible of multiple services of Oepnstack. In this repository major services which are required in Openstack to begin with are covered.
 
