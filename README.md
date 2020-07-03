@@ -1,4 +1,4 @@
-![Openstack](Images/Terraform_Multi.png)
+![Openstack](Images/TM.png)
 
 # Openstack-Terraform
 
@@ -10,5 +10,5 @@
 
 
 # What is Openstack?
-
+![Openstack](Images/OpenStack.png)
 -
