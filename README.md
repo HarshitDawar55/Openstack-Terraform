@@ -64,13 +64,15 @@
 
 * First of all Terraform should be installed in the system.
 
-* TO run the code, save the file with extension ".tf".
+* To run the code, save the file with extension ".tf".
 
-* 
+* Make a separate directory/folder for each Terraform script.
 
+* In each directory first of all run this command "terraform init", this will download the Terraform plugins.
 
+* Finally, to run the code, run the command "terraform apply".
 
-
+* To destroy the environment created by Terraform, run the command "terraform destroy".
 
 # License of this Repository!
 To check out the License for this Repository please click [here!](LICENSE)
