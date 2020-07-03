@@ -28,7 +28,8 @@ resource "openstack_compute_instance_v2" "First_Instance" {
   flavor_name = "<Flavor Name>"
 
   network {
-    name = "<Network Name>"
+    # Name of the network in which instance has to be launched!
+	name = "<Network Name>"
   }
 
 }
