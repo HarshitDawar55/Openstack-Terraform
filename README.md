@@ -46,6 +46,19 @@
 # What is Terraform?
 ![Openstack](Images/t.png)
 
+* Terraform is a provisioning tool.
+
+* It is considered to be a part of DevOps World.
+
+* Terraform is used to provide Infrastructure as a Code (IAAS).
+
+* It is a Idempotent tool i.e. if your Infrastructure is already created, then even if we run the code again, it will not hamper the Infrastructure.
+
+* It is so much powerful & Intelligent tool.
+
+* It is capable of integrating almost all the big giant providers of services, & that list can be checked from [here!](https://www.terraform.io/docs/providers/index.html)
+
+
 
 
 
