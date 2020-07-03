@@ -27,3 +27,7 @@
 * These services correspond to the private cloud services.
 
 * In various versions of Openstack, there is difference in number of services. Therefore according to the requirement select the version of Openstack which you want to install.
+
+* Openstack is a open-source software which has a very large community to support, and that is the reason why Openstack is keep on evolving.
+
+* 
