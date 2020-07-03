@@ -58,7 +58,7 @@
 
 * It is capable of integrating almost all the big giant providers of services, & that list can be checked from [here!](https://www.terraform.io/docs/providers/index.html)
 
-
+* A glimpse of the power of this tool is by running only command, it can create or destroy all the Infrastructure irrespective of how big the Infrastructure is.
 
 
 
