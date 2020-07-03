@@ -60,6 +60,14 @@
 
 * A glimpse of the power of this tool is by running only command, it can create or destroy all the Infrastructure irrespective of how big the Infrastructure is.
 
+# Running Terraform code!
+
+* First of all Terraform should be installed in the system.
+
+* TO run the code, save the file with extension ".tf".
+
+* 
+
 
 
 
