@@ -30,4 +30,4 @@
 
 * Openstack is a open-source software which has a very large community to support, and that is the reason why Openstack is keep on evolving.
 
-* 
+* The benefit of using Openstack cloud is that it provides you the code of the services present in it, & they can be customized according to the requirement! This feature is not available in any other public cloud like AWS, GCP, BlueOcean etc.
