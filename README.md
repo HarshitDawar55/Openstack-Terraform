@@ -21,4 +21,9 @@
 
 # What is Openstack?
 ![Openstack](Images/OpenStack.png)
--
+
+* Openstack is a stack of services.
+
+* These services correspond to the private cloud services.
+
+* In various versions of Openstack, there is difference in number of services. Therefore according to the requirement select the version of Openstack which you want to install.
