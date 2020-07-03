@@ -33,3 +33,11 @@
 * The benefit of using Openstack cloud is that it provides you the code of the services present in it, & they can be customized according to the requirement! This feature is not available in any other public cloud like AWS, GCP, BlueOcean etc.
 
 **To check out the all the official versions/releases of Openstack click [here!](https://releases.openstack.org/)**
+
+# Some use case of Private Cloud!
+
+* If there is a requirement to store the dataset which is very critical, then private cloud is required, as we cannot take risk of storing that data in the public cloud!
+
+* If there are various compliance in various companies, then private cloud is required.
+
+* 
