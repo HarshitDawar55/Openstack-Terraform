@@ -14,7 +14,7 @@
 
 **Not all versions of Openstack are compatible with all version of Terraform!**
 
-**I have used Queens version of Openstack!**
+**I have used Queens version of Openstack for the codes present in this Repository!**
 
 - Brief introduction of Openstack & Terraform is present in their respective sections below!
 
