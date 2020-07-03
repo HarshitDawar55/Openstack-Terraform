@@ -41,3 +41,15 @@
 * If there are various compliance in various companies, then private cloud is required.
 
 * If we want to learn the services in depth then private cloud is the only option, because none of the public cloud provides their software, they only provides services.
+
+
+# What is Terraform?
+
+
+
+
+
+
+
+# License of this Repository!
+To check out the License for this Repository please click [here!](LICENSE)
